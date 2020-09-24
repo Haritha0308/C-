@@ -155,7 +155,7 @@ namespace ListeChainee
             public bool MoveNext()
             {
                 this._indiceCourant++;
-                return (this._indiceCourant < this._liste.NBElement);
+                return (this._indiceCourant <= this._liste.NBElement);
             }
 
             public void Reset()
